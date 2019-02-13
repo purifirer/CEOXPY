@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#616161"
+    tools:context=".MainActivity"
+
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+     <EditText
+         android:id="@+id/mes1"
+         android:gravity="center"
+         android:layout_width="114dp"
+         android:layout_height="44dp"
+         android:hint="@string/Enero"
+         android:inputType="number"
+         android:textColor="#FFF"
+         android:textColorHint="#FFF"
+         tools:targetApi="o"
+         android:autofillHints=""
+         android:layout_marginTop="5dp"
+         android:layout_marginEnd="25dp"
+
+         />
+
+        <EditText
+            android:id="@+id/mes2"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/mes1"
+            android:autofillHints=""
+            android:gravity="center"
+            android:hint="@string/Febrero"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/mes3"
+            android:gravity="center"
+            android:layout_below="@+id/mes1"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:hint="@string/Marzo"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o"
+            android:autofillHints=""
+
+            />
+
+        <EditText
+            android:id="@+id/mes4"
+            android:gravity="center"
+            android:layout_below="@+id/mes2"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/mes1"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:hint="@string/Abril"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/mes5"
+            android:gravity="center"
+            android:layout_below="@id/mes3"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:hint="@string/Mayo"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o"
+            android:autofillHints=""
+
+            />
+
+        <EditText
+            android:id="@+id/mes6"
+            android:gravity="center"
+            android:layout_below="@id/mes4"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/mes1"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:hint="@string/Junio"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o" />
+
+
+        <EditText
+            android:id="@+id/mes7"
+            android:layout_below="@id/mes5"
+            android:gravity="center"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:hint="@string/Julio"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o"
+            android:autofillHints=""
+
+            />
+
+        <EditText
+            android:id="@+id/mes8"
+            android:layout_below="@id/mes6"
+            android:gravity="center"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/mes1"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:hint="@string/Agosto"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/mes9"
+            android:layout_below="@id/mes7"
+            android:gravity="center"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:hint="@string/Septiembre"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o"
+            android:autofillHints=""
+
+            />
+
+        <EditText
+            android:id="@+id/mes10"
+            android:layout_below="@id/mes8"
+            android:gravity="center"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/mes1"
+            android:layout_marginTop="0dp"
+            android:autofillHints=""
+            android:hint="@string/Octubre"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o"
+
+            />
+
+        <EditText
+            android:id="@+id/mes11"
+            android:layout_below="@id/mes9"
+            android:gravity="center"
+            android:layout_width="130dp"
+            android:layout_height="44dp"
+            android:hint="@string/Noviembre"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o"
+            android:autofillHints=""
+            android:layout_marginTop="5dp"
+
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/mes12"
+            android:layout_below="@id/mes10"
+            android:gravity="center"
+            android:layout_width="114dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/mes1"
+            android:layout_marginTop="5dp"
+            android:autofillHints=""
+            android:hint="@string/Diciembre"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            tools:targetApi="o" />
+
+
+
+        <Button
+            android:id="@+id/but5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Nueevo"
+          android:layout_toEndOf="@id/but4"
+            android:layout_marginVertical="22dp"
+
+            android:layout_below="@id/mes12"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/but4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Calcular"
+            android:layout_marginVertical="20dp"
+            android:layout_below="@id/mes12"
+            android:textSize="25sp"
+            android:textStyle="bold" tools:targetApi="o"
+
+            />
+
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="-40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+
+
+        tools:targetApi="o"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>
+
